@@ -108,9 +108,12 @@ main{
 }
 
 @media (max-width: 999px){
-    body{
+
+    body, html {
         overflow-x: hidden;
+        position: relative
     }
+    
     .nav-list{
         position: absolute;
         top: 8vh;
