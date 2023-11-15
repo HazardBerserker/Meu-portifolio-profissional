@@ -554,7 +554,7 @@
         }
     }
     .about{
-        height: 650px;
+        height: 740px;
     }
 
     .tool-box{
@@ -565,9 +565,22 @@
         font-size: 12px;
     }
     .programming-tools{
+        align-items: center;
+        width: 107px;
         p{
             font-size: 16px;
         }
+    }
+
+    .css {
+        flex-basis: 42%;
+    }
+
+    .sass {
+        flex-basis: 42%;
+    }
+    .tools{
+        height: 500px;
     }
 }
 

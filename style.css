@@ -501,7 +501,7 @@ body {
     padding: 10px;
   }
   .about {
-    height: 650px;
+    height: 740px;
   }
   .tool-box {
     width: 120px;
@@ -510,8 +510,21 @@ body {
   .tool-box h3 {
     font-size: 16px;
   }
+  .programming-tools {
+    align-items: center;
+    width: 107px;
+  }
   .programming-tools p {
     font-size: 16px;
+  }
+  .css {
+    flex-basis: 42%;
+  }
+  .sass {
+    flex-basis: 42%;
+  }
+  .tools {
+    height: 500px;
   }
 }
 @media screen and (max-width: 528px) {
