@@ -520,10 +520,10 @@ body {
     font-size: 16px;
   }
   .css {
-    flex-basis: 42%;
+    flex-basis: 50%;
   }
   .sass {
-    flex-basis: 42%;
+    flex-basis: 50%;
   }
   .tools {
     height: 500px;
@@ -543,6 +543,12 @@ body {
   }
   .each-project a {
     font-size: 16px;
+  }
+  .css {
+    flex-basis: 42%;
+  }
+  .sass {
+    flex-basis: 42%;
   }
 }
 .footer-contact {
