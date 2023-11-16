@@ -566,6 +566,8 @@
     }
     .programming-tools{
         align-items: center;
+        justify-content: center;
+        text-align: center;
         width: 107px;
         p{
             font-size: 16px;
@@ -623,6 +625,7 @@
 
     .social-icons-footer{
         i{
+            color: $other-grey-very-dark;
             margin: 10px;
             font-size: 30px;
         }
