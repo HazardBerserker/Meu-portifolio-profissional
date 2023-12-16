@@ -278,14 +278,9 @@
 }
 
 .projects-link{
-
     i{
-        color: $white-normal;
+        padding: 0 5px 0 5px;
     }
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 10px;
 }
 
 .project-description{
@@ -326,6 +321,11 @@
 
         .container-project{
             gap: 60px;
+        }
+    }
+    .projects-link{
+        i{
+            padding: 0 0px 0 0px;
         }
     }
     .container-project{
@@ -636,7 +636,7 @@
             font-size: 14px;
         }
         a{
-            font-size: 16px;
+            font-size: 14px;
         }
     }
     .css {

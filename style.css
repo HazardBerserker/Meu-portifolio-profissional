@@ -292,14 +292,8 @@ body {
   color: #73E1FF;
 }
 
-.projects-link {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  gap: 10px;
-}
 .projects-link i {
-  color: #fff;
+  padding: 0 5px 0 5px;
 }
 
 .project-description {
@@ -337,6 +331,9 @@ body {
   }
   :last-child.each-project .container-project {
     gap: 60px;
+  }
+  .projects-link i {
+    padding: 0 0px 0 0px;
   }
   .container-project {
     gap: 60px;
@@ -569,7 +566,7 @@ body {
     font-size: 14px;
   }
   .each-project a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .css {
     flex-basis: 42%;
