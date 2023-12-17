@@ -23,8 +23,9 @@ body{
     overflow-x: hidden
 }
 
-@import "partials/_color.scss";
+@import "partials/_color";
 @import "partials/_layout";
+@import "partials/form";
 
 .span{
     color: $other-blue-dark;
