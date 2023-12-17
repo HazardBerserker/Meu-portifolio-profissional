@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     z-index: 1;
     overflow-x: hidden
 }
@@ -91,7 +91,7 @@ main{
 
 .nav-list li{
     letter-spacing: 3px;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 .mobile-menu{
@@ -129,7 +129,7 @@ main{
     .nav-list{
         position: absolute;
         top: 8vh;
-        right: 0;
+        left: 0;
         width: 100vw;
         height: 92vh;
         background: $white-normal;
@@ -141,23 +141,34 @@ main{
         transition: transform 0.3s ease-in;
         z-index: 99;
         
-        a{
+        a{  
             color: $black-normal;
         }
     }
     .nav-list li{
-        padding-left: 0px;
+        margin-left: 0;
+        padding-right: 58px;
         opacity: 0;
+    }
+    .nav-list li:nth-child(1){
+        padding-right: 81px;
+    }
+    .nav-list li:nth-child(3){
+        padding-right: 81px;
     }
     .mobile-menu{
         display: block;
+        z-index: 99;
+    }
+
+    .logo{
+        text-shadow: 1px 1px 5px rgb(66, 66, 66);;
     }
 }
 
 .nav-list.active{
     transform: translateX(0);
     position: fixed;
-
 }
 
 @keyframes navLinkFade {
@@ -173,13 +184,15 @@ main{
 
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
+    box-shadow: 1px 1px 5px rgb(66, 66, 66);
   }
   
 .mobile-menu.active .line2 {
-opacity: 0;
+    opacity: 0;
 }
 
 .mobile-menu.active .line3 {
-transform: rotate(45deg) translate(-5px, -7px);
+    transform: rotate(45deg) translate(-5px, -7px);
+    box-shadow: 1px 1px 5px rgb(73, 73, 73);
 }
 
